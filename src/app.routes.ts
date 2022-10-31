@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './app/home/home.component';
-import { DetailsComponent } from './app/details/details.component';
+//import { DetailsComponent } from './app/details/details.component';
 //import { HomeComponent } from './home/home.component';
 
 export const APP_ROUTES: Routes = [
@@ -13,6 +13,10 @@ export const APP_ROUTES: Routes = [
     path: 'home',
     component: HomeComponent,
   },
+  // {
+  //   path: 'details',
+  //   component: DetailsComponent,
+  // },
 
   // Option 1: Lazy Loading another Routing Config
   // {
