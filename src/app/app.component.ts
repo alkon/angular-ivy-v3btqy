@@ -5,7 +5,7 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   selector: 'my-app',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  styleUrls: ['./app.component.scss'],
   imports: [RouterModule],
 })
 export class AppComponent {}
