@@ -26,7 +26,7 @@ export const APP_ROUTES: Routes = [
   //             .then(m => m.FLIGHT_BOOKING_ROUTES)
   // },
 
-  // Option 2: Directly Lazy Loading a Standalone Component
+  // Option 2: Directly Lazy Loading of a Standalone Component
   {
     path: 'details',
     loadComponent: () =>
